@@ -92,7 +92,7 @@ class _MyHomeState extends State<MyHome> {
                   keyboardType: TextInputType.phone,
                   obscureText: _isVisible,
                   decoration: InputDecoration(
-                      labelText: "Pas",
+                      labelText: "Password",
                       border: const OutlineInputBorder(),
                       prefixIcon: const Icon(Icons.lock_open_outlined),
                       suffixIcon: IconButton(onPressed: ()
